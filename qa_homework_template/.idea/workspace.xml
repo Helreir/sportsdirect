@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3dd31f9-025f-45bf-86d8-14b0c66d214d" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qa-homework" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qa-homework" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qa-homework" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qa-homework" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>webdriver.chrome.driver</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="ProjectId" id="1Yhb9rIN2VQIJi4mOChQjDR4NMB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.ExampleTest.testMenShoes">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTest.testMenShoes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.finance.homework.ExampleTest.testMenShoes&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleTest.testSportsDirectTitle" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.finance.homework.ExampleTest.testSportsDirectTitle&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="qa-homework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.finance.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.finance.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.finance.homework.ExampleTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="$USER_HOME$/Downloads" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTest.testDelfiTitle" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="qa-homework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.finance.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.finance.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.finance.homework.ExampleTest" />
+      <option name="METHOD_NAME" value="testDelfiTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.ExampleTest.testSportsDirectTitle" />
+      <item itemvalue="JUnit.ExampleTest.testDelfiTitle" />
+      <item itemvalue="JUnit.ExampleTest" />
+      <item itemvalue="Gradle.ExampleTest.testMenShoes" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ExampleTest.testMenShoes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3dd31f9-025f-45bf-86d8-14b0c66d214d" name="Default" comment="" />
+      <created>1532671068742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532671068742</updated>
+      <workItem from="1583397631819" duration="2066000" />
+      <workItem from="1583399828693" duration="2071000" />
+      <workItem from="1583402706691" duration="8344000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2702" y="722" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583398671912">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2702" y="722" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583398671912" />
+    <state width="1340" height="164" key="GridCell.Tab.0.bottom" timestamp="1583411060842">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1340" height="164" key="GridCell.Tab.0.bottom/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583411060842" />
+    <state width="1340" height="164" key="GridCell.Tab.0.center" timestamp="1583411060842">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1340" height="164" key="GridCell.Tab.0.center/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583411060842" />
+    <state width="1340" height="164" key="GridCell.Tab.0.left" timestamp="1583411060841">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1340" height="164" key="GridCell.Tab.0.left/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583411060841" />
+    <state width="1340" height="164" key="GridCell.Tab.0.right" timestamp="1583411060842">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1340" height="164" key="GridCell.Tab.0.right/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583411060842" />
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1583409916284">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583409916284" />
+    <state width="1340" height="328" key="GridCell.Tab.1.center" timestamp="1583409916284">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.center/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583409916284" />
+    <state width="1340" height="328" key="GridCell.Tab.1.left" timestamp="1583409916284">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.left/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583409916284" />
+    <state width="1340" height="328" key="GridCell.Tab.1.right" timestamp="1583409916284">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.right/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583409916284" />
+    <state x="2701" y="342" key="SettingsEditor" timestamp="1583402677114">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2701" y="342" key="SettingsEditor/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583402677114" />
+    <state x="2550" y="657" key="com.intellij.ide.util.TipDialog" timestamp="1583402706463">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2550" y="657" key="com.intellij.ide.util.TipDialog/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583402706463" />
+    <state x="2236" y="454" key="new project wizard" timestamp="1583400052398">
+      <screen x="1920" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2236" y="454" key="new project wizard/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583400052398" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/qa_homework$ExampleTest.ic" NAME="ExampleTest Coverage Results" MODIFIED="1583402681787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.finance.homework.*</FILTER>
+    </SUITE>
+  </component>
+</project>
