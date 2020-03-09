@@ -84,7 +84,7 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.ExampleTest.testMenShoes">
+  <component name="RunManager" selected="Gradle.ExampleTest.testShoesFilter">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -104,6 +104,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.finance.homework.ExampleTest.testMenShoes&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleTest.testShoesFilter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.finance.homework.ExampleTest.testShoesFilter&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -142,7 +162,7 @@
       <module name="qa-homework_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.finance.homework.*" />
+          <option name="PATTERN" value="com.finance.page.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,7 +184,7 @@
       <module name="qa-homework_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.finance.homework.*" />
+          <option name="PATTERN" value="com.finance.page.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +224,14 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.ExampleTest.testSportsDirectTitle" />
+      <item itemvalue="Gradle.ExampleTest.testMenShoes" />
+      <item itemvalue="Gradle.ExampleTest.testShoesFilter" />
       <item itemvalue="JUnit.ExampleTest.testDelfiTitle" />
       <item itemvalue="JUnit.ExampleTest" />
-      <item itemvalue="Gradle.ExampleTest.testMenShoes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ExampleTest.testShoesFilter" />
         <item itemvalue="Gradle.ExampleTest.testMenShoes" />
       </list>
     </recent_temporary>
@@ -226,7 +248,8 @@
       <updated>1532671068742</updated>
       <workItem from="1583397631819" duration="2066000" />
       <workItem from="1583399828693" duration="2071000" />
-      <workItem from="1583402706691" duration="8344000" />
+      <workItem from="1583402706691" duration="11728000" />
+      <workItem from="1583788894871" duration="6457000" />
     </task>
     <servers />
   </component>
@@ -238,45 +261,54 @@
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2702" y="722" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583398671912" />
-    <state width="1340" height="164" key="GridCell.Tab.0.bottom" timestamp="1583411060842">
+    <state x="756" y="404" width="408" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583790304335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="404" width="408" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1583790304335" />
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1583795358252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom/1920.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1583795358252" />
+    <state width="1340" height="328" key="GridCell.Tab.0.bottom/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583414616045" />
+    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1583795358252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="202" key="GridCell.Tab.0.center/1920.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1583795358252" />
+    <state width="1340" height="328" key="GridCell.Tab.0.center/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583414616045" />
+    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1583795358252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="202" key="GridCell.Tab.0.left/1920.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1583795358252" />
+    <state width="1340" height="328" key="GridCell.Tab.0.left/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583414616045" />
+    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1583795358252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="202" key="GridCell.Tab.0.right/1920.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1583795358252" />
+    <state width="1340" height="328" key="GridCell.Tab.0.right/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583414616045" />
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1583414616045">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1340" height="164" key="GridCell.Tab.0.bottom/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583411060842" />
-    <state width="1340" height="164" key="GridCell.Tab.0.center" timestamp="1583411060842">
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583414616045" />
+    <state width="1340" height="328" key="GridCell.Tab.1.center" timestamp="1583414616045">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1340" height="164" key="GridCell.Tab.0.center/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583411060842" />
-    <state width="1340" height="164" key="GridCell.Tab.0.left" timestamp="1583411060841">
+    <state width="1340" height="328" key="GridCell.Tab.1.center/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583414616045" />
+    <state width="1340" height="328" key="GridCell.Tab.1.left" timestamp="1583414616045">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1340" height="164" key="GridCell.Tab.0.left/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583411060841" />
-    <state width="1340" height="164" key="GridCell.Tab.0.right" timestamp="1583411060842">
+    <state width="1340" height="328" key="GridCell.Tab.1.left/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583414616045" />
+    <state width="1340" height="328" key="GridCell.Tab.1.right" timestamp="1583414616045">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state width="1340" height="164" key="GridCell.Tab.0.right/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583411060842" />
-    <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1583409916284">
-      <screen x="1920" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1340" height="328" key="GridCell.Tab.1.bottom/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583409916284" />
-    <state width="1340" height="328" key="GridCell.Tab.1.center" timestamp="1583409916284">
-      <screen x="1920" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1340" height="328" key="GridCell.Tab.1.center/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583409916284" />
-    <state width="1340" height="328" key="GridCell.Tab.1.left" timestamp="1583409916284">
-      <screen x="1920" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1340" height="328" key="GridCell.Tab.1.left/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583409916284" />
-    <state width="1340" height="328" key="GridCell.Tab.1.right" timestamp="1583409916284">
-      <screen x="1920" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1340" height="328" key="GridCell.Tab.1.right/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583409916284" />
+    <state width="1340" height="328" key="GridCell.Tab.1.right/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583414616045" />
     <state x="2701" y="342" key="SettingsEditor" timestamp="1583402677114">
       <screen x="1920" y="0" width="2560" height="1400" />
     </state>
     <state x="2701" y="342" key="SettingsEditor/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583402677114" />
-    <state x="2550" y="657" key="com.intellij.ide.util.TipDialog" timestamp="1583402706463">
-      <screen x="1920" y="0" width="2560" height="1400" />
+    <state x="473" y="488" key="com.intellij.ide.util.TipDialog" timestamp="1583788926528">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="473" y="488" key="com.intellij.ide.util.TipDialog/1920.0.2560.1400/0.0.1920.1040@0.0.1920.1040" timestamp="1583788926527" />
     <state x="2550" y="657" key="com.intellij.ide.util.TipDialog/1920.0.2560.1400/0.0.1920.1040@1920.0.2560.1400" timestamp="1583402706463" />
     <state x="2236" y="454" key="new project wizard" timestamp="1583400052398">
       <screen x="1920" y="0" width="2560" height="1400" />
