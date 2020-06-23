@@ -1,4 +1,4 @@
-# QA homework project template
+# QA project template
 
 ## Description
 
